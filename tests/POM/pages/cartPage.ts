@@ -13,6 +13,7 @@ import { Locator, Page } from '@playwright/test';
 // Если не понятно по названию метода, что он должен выполнять, можно заглянуть в шпарганку
 
 export class CartPage {
+  //test
   readonly page: Page;
   readonly cartItems: Locator;
   readonly cartTotal: Locator;
